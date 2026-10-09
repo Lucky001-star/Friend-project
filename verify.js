@@ -2,8 +2,8 @@ const SUPABASE_URL = "https://hknefvgppkuhimgkuivg.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_E3Y8ZAbe9EjiKaN0AluyrA_z6cjwxQw";
 
 // --- TELEGRAM CONFIGURATION ---
-const TELEGRAM_BOT_TOKEN = "8917723791:AAF0sRy1FgaR2XDLawCrQ8cHQ1nt7WCMGL8"; // Put your bot token here
-const TELEGRAM_CHAT_ID = "6417551309";     // Put your chat ID here
+const TELEGRAM_BOT_TOKEN = "8500182615:AAFVA5wP6s-odKpryB0rtG1OCPHcKso5T2Y"; // Put your bot token here
+const TELEGRAM_CHAT_ID = "6512685454";     // Put your chat ID here
 
 async function sendTelegramNotification(message) {
     const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
